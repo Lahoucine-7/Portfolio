@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "main",
+                "main.c",
+                "-I/Users/H7/Desktop/DEV/Archives/Projets MIASHS/Projet_Casse_Brique (1)",
+                "-lSDL"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
